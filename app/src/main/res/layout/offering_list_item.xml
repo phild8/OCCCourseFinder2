@@ -10,19 +10,24 @@
         android:layout_height="match_parent">
 
         <TextView
-            android:text="TextView"
+            android:text="Full Name - TV"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"
             android:id="@+id/offeringListFullNameTextView" />
 
         <TextView
-            android:text="TextView"
+            android:text="Title - TV"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/offeringListTitleTextView" />
 
         <!--TODO (1): Add a TextView named offeringListCRNTextView to the layout underneath the offeringListCourseTitleTextView -->
+        <TextView
+            android:text="CRN - TV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/offeringListCRNTextView" />
 
     </LinearLayout>
 
